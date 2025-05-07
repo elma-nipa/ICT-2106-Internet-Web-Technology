@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container mt-5 ;bg-light" >
+        <h2 style="color:black; text-align: center;">Jahangirnagar University</h2>
+      
+        <form>
+          <div class="row mb-3 ">
+            <div class="col-md-6">
+              <label for="fullName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+            </div>
+            <div class="col-md-6">
+              <label for="emailAddress" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="emailAddress" placeholder="you@example.com" required>
+            </div>
+          </div>
+      
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="phoneNumber" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="phoneNumber" placeholder="+1234567890" required>
+            </div>
+            <div class="col-md-6">
+                <label for="exampleDataList" class="form-label">subject</label>
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                <datalist id="datalistOptions">
+                  <option value="IIT">
+                  <option value="Phy">
+                  <option value="Math">
+                  <option value="Stat">
+                  <option value="Cse">
+                </datalist>
+            </div>
+          </div>
+      
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="photoUpload" class="form-label">Upload Profile Photo</label>
+              <input class="form-control" type="file" id="photoUpload" accept="image/*" required>
+            </div>
+            <div class="col-md-6">
+              <label for="docUpload" class="form-label">Upload Transcript / Documents</label>
+              <input class="form-control" type="file" id="docUpload" multiple required>
+            </div>
+          </div>
+
+         <Label>Choose your fav language</Label>
+         <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="langCPlusPlus" value="C++">
+            <label class="form-check-label" for="langCPlusPlus">C++</label>
+          </div>
+          
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="langC" value="C" checked>
+            <label class="form-check-label" for="langC">C</label>
+          </div>
+          
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="langJava" value="Java">
+            <label class="form-check-label" for="langJava">Java</label>
+          </div>
+          
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="langPython" value="Python" checked>
+            <label class="form-check-label" for="langPython">Python</label>
+          </div>
+        </div>
+
+          <div class="d-grid" style="margin-top: 60px;">
+            <button type="submit" class="btn btn-secondary btn-s w-auto mx-auto">Submit Application</button>
+          </div>
+
+        </form>
+      </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
